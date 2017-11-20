@@ -31,7 +31,7 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:label="LithoLab: Begin"
-            android:name="com.facebook.samples.lithocodelab.LithoLabActivity"
+            android:name="com.facebook.samples.lithocodelab.treeprops.TreePropsLithoLabActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,15 +56,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
+        <!-- activity
             android:label="LithoLab: Examples"
-            android:name="com.facebook.samples.lithocodelab.examples.ExamplesLithoLabActivity"
+            android:name="com.facebook.samples.lithocodelab.examples.TreePropsLithoLabActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity -->
     </application>
 
 </manifest>
